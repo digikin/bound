@@ -125,10 +125,9 @@ GEM
       addressable (~> 2.3)
       nokogiri (~> 1.5)
       omniauth (~> 1.2)
-    omniauth-google-oauth2 (0.5.3)
-      jwt (>= 1.5)
-      omniauth (>= 1.1.1)
-      omniauth-oauth2 (>= 1.5)
+    omniauth-github (1.1.2)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.1)
     omniauth-oauth2 (1.5.0)
       oauth2 (~> 1.1)
       omniauth (~> 1.2)
@@ -214,7 +213,7 @@ DEPENDENCIES
   nissh
   omniauth
   omniauth-cas
-  omniauth-google-oauth2
+  omniauth-github
   puma (~> 3.0)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
